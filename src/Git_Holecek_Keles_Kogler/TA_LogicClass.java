@@ -5,7 +5,7 @@ public interface TA_LogicClass {
 	 * Methode zur Festlegung welcher Button gedrückt wurde und
 	 * welche Buttons deakteviert werden müssen
 	 */
-	indexOnOff[] whatToChange();
+	indexOnOff[] whatToChange(int index);
 	
 	/**
 	 * Get all Buttons and Values
